@@ -6,5 +6,5 @@ int main(){
 
     float product=a*b;
   
-    printf("Product: %.2f",product2);
+    printf("Product: %.2f",product);
 }
