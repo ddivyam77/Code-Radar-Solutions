@@ -2,7 +2,8 @@
 
 
 int main() {
-    int a,b,c,average;
+    int a,b,c;
+    float average;
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
