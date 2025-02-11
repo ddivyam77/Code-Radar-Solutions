@@ -2,8 +2,8 @@
 int main(){
     int a;
     scanf("%d",&a);
-    
-   if(a&1){
+    int result=
+   if(result==1){
     printf("Set\n");
    }
    else{
