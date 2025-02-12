@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    int result=a&msb_mask;
-   if(result==1){
+   unsigned char a;
+   scanf("%c",&a);
+   unsigned char msb_mask=0*80;
     printf("Set\n");
+   if(a&msb_mask){
+    printf("Set");
    }
    else{
     printf("Not Set");
