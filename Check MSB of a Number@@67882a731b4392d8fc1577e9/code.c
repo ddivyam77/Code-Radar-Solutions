@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 int main(){
-   unsigned  a;int
+   unsigned int a;
    scanf("%u",&a);
    unsigned int msb_mask=0*80000000;
     printf("Set\n");
