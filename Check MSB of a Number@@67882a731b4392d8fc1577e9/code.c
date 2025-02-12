@@ -6,9 +6,9 @@ int main(){
    unsigned int msb_mask=0*80000000;
   
    if(a&msb_mask){
-    printf("Set");
+    printf("Set\n");
    }
    else{
-    printf("Not Set");
+    printf("Not Set\n");
    }
 } 
