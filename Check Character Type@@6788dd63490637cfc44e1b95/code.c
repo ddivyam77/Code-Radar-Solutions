@@ -13,6 +13,6 @@ int main(){
             printf("Digit");
         }
         else{
-            printf("Special charachter");
+            printf("Special character");
         }
     }
