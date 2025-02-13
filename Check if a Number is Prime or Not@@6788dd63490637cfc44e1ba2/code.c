@@ -1,9 +1,14 @@
 #include<stdio.h>
-int isprime();
+int isprime(int n);
 int main(){
     int n;
     scanf("%d",&n);
-    if(isprime())
+    if(isprime(n)){
+        printf("Prime");
+    }
+    else{
+        printf(Not Prime);
+    }
 }
 int isprime(int n){
     if(n<=1){
