@@ -1,4 +1,5 @@
 #include<stdio.h>
+int main(){
 int a;
 scanf("%d",&a);
 if(a%3==0&&a%5==0){
@@ -12,4 +13,4 @@ else if(a%5==0){
 }
 else{
     printf("Not Divisible");
-}
+}}
