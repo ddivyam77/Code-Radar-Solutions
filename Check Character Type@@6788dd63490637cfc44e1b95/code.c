@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 int main(){
 
         char ch;
@@ -8,8 +9,9 @@ int main(){
         }
         else if((ch>='a' && ch<='z')||(ch>='A'&&ch<='B')){
             printf("Consonant");
-        }
-        else if(ch>='0'&&ch<='9'){
+         }
+        // else if(ch>='0'&&ch<='9')
+        else if(isdigit(ch)){
             printf("Digit");
         }
         else{
