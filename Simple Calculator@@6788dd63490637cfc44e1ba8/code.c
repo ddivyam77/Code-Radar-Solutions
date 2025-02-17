@@ -1,6 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    printf(acb);
+    int a,b;
+    scanf("%d %d",&a,&b);
+    char c[5];
+    scanf("%s",&c);
+    if (c=='+'){
+        printf(acb);
+    }
+
 }
