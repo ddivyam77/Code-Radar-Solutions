@@ -1,23 +1,31 @@
-#include<stdio.h>
-int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
+#include <stdio.h>
+#include <string.h>  // Include for strcmp()
+
+int main() {
+    int a, b;
     char c[5];
-    scanf("%s",&c);
-    if (c=='+'){
-        printf("%d",a+b);
-    }
-    else if(c=='-'){
-        printf("%d",a-b);
-    }
-    else if(c=='*'){
-        printf("%d",a*b);
-    }
-    else if(c=='/'){
-        printf("%d",a/b);
-    }
-    else{
+
+    scanf("%d %d %s", &a, &b, c);  // Corrected input
+
+    if (strcmp(c, "+") == 0) {   // Use strcmp() for string comparison
+        printf("%d", a + b);
+    } 
+    else if (strcmp(c, "-") == 0) {
+        printf("%d", a - b);
+    } 
+    else if (strcmp(c, "*") == 0) {
+        printf("%d", a * b);
+    } 
+    else if (strcmp(c, "/") == 0) {
+        if (b != 0) {
+            printf("%d", a / b);
+        } else {
+            printf("Division by zero error");
+        }
+    } 
+    else {
         printf("error");
     }
 
+    return 0;
 }
