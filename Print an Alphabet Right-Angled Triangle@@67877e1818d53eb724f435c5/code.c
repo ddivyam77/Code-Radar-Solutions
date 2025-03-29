@@ -4,8 +4,9 @@ int main(){
     scanf("%c",&n);
     char ch;
     for(char i=1; i<=n; i++){
-        ch='A';
+       
         for(char j=1;j<i; j++){
+             ch='A';
             printf("%c ",ch);
             ch++;
         }printf("\n");
